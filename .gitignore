@@ -1,0 +1,7 @@
+.idea
+data/*
+!data/.gitkeep
+!data/cache/.gitkeep
+deploy/build/*
+!deploy/build/.gitkeep
+config/config.yaml
