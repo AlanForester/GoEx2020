@@ -15,7 +15,7 @@ micro:
   ports:
     - "8080:8080"
 api:
-  build: ./api/hotel
+  build: ./api/onemo
   command: --registry_address=consul:8500
   links:
     - consul

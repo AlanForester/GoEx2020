@@ -4,7 +4,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// User demo
 type User struct {
 	UserName  string
 	FirstName string

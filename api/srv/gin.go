@@ -7,6 +7,7 @@ import (
 	"github.com/ekyoung/gin-nice-recovery"
 	"github.com/gin-gonic/gin"
 	"github.com/szuecs/gin-glog"
+	"/api/models"
 	"log"
 	"net/http"
 	"os"
@@ -59,6 +60,7 @@ func (g *GinFramework) LoadMiddleware() {
 	// Security middlewares
 	g.Engine.Use(helmet.Default())
 
+	g.Engine.Use(models.CORS())
 	// Check health
 	// curl -iL -XGET -H "X-Health-Check: 1" http://localhost
 	g.Engine.Use(healthcheck.Default())

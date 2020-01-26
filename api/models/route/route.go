@@ -2,7 +2,7 @@ package route
 
 import (
 	"github.com/gin-gonic/gin"
-	"gop/api/interfaces"
+	"source.cloud.google.com/onemo-api//api/interfaces"
 )
 
 type Route struct {

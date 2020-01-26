@@ -2,9 +2,9 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"gop/api/controllers/api"
-	"gop/api/interfaces"
-	"gop/api/models/route"
+	"source.cloud.google.com/onemo-api//api/controllers/api"
+	"source.cloud.google.com/onemo-api//api/interfaces"
+	"source.cloud.google.com/onemo-api//api/models/route"
 )
 
 type ApiController struct {

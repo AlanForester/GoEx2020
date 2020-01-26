@@ -2,9 +2,9 @@ package models
 
 import (
 	"github.com/gin-gonic/gin"
-	"gop/api/controllers"
-	"gop/api/interfaces"
-	"gop/api/srv"
+	"source.cloud.google.com/onemo-api//api/controllers"
+	"source.cloud.google.com/onemo-api//api/interfaces"
+	"source.cloud.google.com/onemo-api//api/srv"
 	"gopkg.in/appleboy/gin-jwt.v2"
 	"log"
 )
